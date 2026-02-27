@@ -20,7 +20,7 @@ FROM ubuntu:22.04
 LABEL org.opencontainers.image.source="https://github.com/vevc/one-node"
 
 ENV TZ=Asia/Shanghai \
-    UUID=2584b733-9095-4bec-a7d5-62b473540f7a \
+    UUID=d09f2edc-1ce8-4cb1-8302-061d412dde8e \
     DOMAIN=vevc-fml.hf.space
 
 COPY entrypoint.sh /entrypoint.sh
